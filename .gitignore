@@ -1,0 +1,21 @@
+# Data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.terminal/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
